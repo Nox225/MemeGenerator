@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #eee;
+}
+
+.body{
+    margin: 10vh auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(9, 7, 47);
+    overflow: hidden;
+    border-radius: 15px;
+    /* inline-size: 500px; */
+}
+
+.photo{
+    width: 500px;
+}
+
+.info{
+    text-align: center;
+}
+
+.profile--name{
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+.profile--job{
+    font-size: 22px;
+}
+
+.profile--website{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.btn{
+    margin: 20px 20px;
+    width: 180px;
+    height: 40px;
+    color:rgb(38, 38, 38);
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.b1{
+    background-color: rgb(40, 154, 40);
+}
+
+.b2{
+    background-color: rgb(102, 102, 225);
+}
+
+.main{
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.main > p{
+    margin-bottom: 10px;
+}
+
+.main > h3{
+    font-size: 24px;
+}
+
+.main > p{
+
+    inline-size: 400px;
+}
+
+.btn-icons{
+    margin-right: 15px;
+}
+
+.foot{
+    background-color: rgb(1, 1, 30);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.foot > i{
+    font-size: 55px;
+    padding: 15px 10px;
+    color: #eee;
+    margin: 0 15px;
+
+}
